@@ -1,6 +1,5 @@
-
 @font-face {
-  font-display: swap; 
+  font-display: swap;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
@@ -17,7 +16,7 @@
 }
 
 @font-face {
-  font-display: swap; 
+  font-display: swap;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -35,7 +34,7 @@
 }
 
 @font-face {
-  font-display: swap; 
+  font-display: swap;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -52,7 +51,7 @@
 }
 
 @font-face {
-  font-display: swap; 
+  font-display: swap;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 900;
@@ -81,7 +80,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.5; 
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -153,7 +152,7 @@ ul {
 }
 
 /* Header */
-.header-container{
+.header-container {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -164,9 +163,9 @@ ul {
   align-items: center;
   flex-grow: 1;
   gap: 40px;
-  }
+}
 
-.header-menu{
+.header-menu {
   display: flex;
   gap: 64px;
   flex-grow: 1;
@@ -193,7 +192,8 @@ ul {
 }
 
 /* Advantages section */
-.advantages-section{
+.advantages-section {
+  padding: 16px 0;
   background-color: var(--color-brand-light);
 }
 
@@ -201,10 +201,10 @@ ul {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  color: var(--color-primary-light);
 }
 
 .advantages-item {
+  color: var(--color-primary-light);
   font-size: 20px;
   font-weight: 300;
 }
@@ -225,6 +225,16 @@ ul {
   padding-top: 96px;
 }
 
+.traditions-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.tradition-content {
+  max-width: 710px;
+}
+
 .tradition-title {
   margin-bottom: 42px;
 }
@@ -236,6 +246,10 @@ ul {
 
 .tradition-text .uppercase {
   text-transform: uppercase;
+}
+
+.tradition-text.limited {
+  max-width: 325px;
 }
 
 /* chefs section */
@@ -250,6 +264,22 @@ ul {
 }
 
 /* format section */
+
+.formats-list {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.formats-item {
+  flex-basis: calc(100%-40px / 3);
+}
+
+.format-card {
+  border: 1px solid lightgray; /*_______DELETE_______*/
+  border-radius: 16px;
+}
 .formats-title {
   margin-bottom: 80px;
 }
