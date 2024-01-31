@@ -377,10 +377,12 @@ ul {
 }
 .navbox {
   display: flex;
+  gap: 166px;
 }
 .footerbox {
   display: flex;
   background-color: var(--color-primary-dark);
+  gap: 166px;
 }
 .address-linc {
   color: var(--color-primary-light);
