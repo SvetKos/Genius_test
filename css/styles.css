@@ -204,6 +204,10 @@ ul {
 /* Hero section */
 .hero-section {
   padding: 272px;
+  background-image: url('../images/Сучасна_пекарня.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 
 .hero-title {
@@ -243,6 +247,7 @@ ul {
   font-size: 64px;
   font-weight: 900;
   line-height: 1.3;
+  text-align: center;
 }
 
 .section-title .accent-title {
@@ -300,24 +305,41 @@ ul {
 }
 
 /* format section */
+.Handlebar {
+  background-image: url('../images/Handlebar.jpg');
+}
+.Horseshoe {
+  background-image: url('../images/Horseshoe.jpg');
+}
+.Walrus {
+  background-image: url('../images/Walrus.jpg');
+}
 
 .formats-list {
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .formats-item {
   flex-basis: calc(100%-40px / 3);
+  width: 349px;
+  height: 444px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 
 .format-card {
   border: 1px solid lightgray; /*_______DELETE_______*/
   border-radius: 16px;
+  padding: 228px 24px 2px 24px;
 }
 .formats-title {
   margin-bottom: 80px;
+  text-align: center;
 }
 
 .format-title {
@@ -339,9 +361,16 @@ ul {
   justify-content: center;
   gap: 32px;
 }
+
+.address-box {
+  display: flex;
+  flex-direction: column;
+}
+
 .button-and-agree {
   text-align: center;
 }
+
 .text-form {
   color: var(--color-brand-dark);
   margin-bottom: 42px;
@@ -382,7 +411,12 @@ ul {
 .footerbox {
   display: flex;
   background-color: var(--color-primary-dark);
+  background-image: url('../images/footer.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   gap: 166px;
+  justify-content: center;
 }
 .address-linc {
   color: var(--color-primary-light);
