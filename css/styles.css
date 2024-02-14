@@ -119,9 +119,9 @@ ul {
 
 .container {
   width: 100%;
-  max-width: 1288px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 24px;
+  /* padding: 0 24px; */
 }
 
 /* Button */
@@ -259,6 +259,7 @@ ul {
   display: flex;
   justify-content: space-between;
   gap: 40px;
+  padding-left: 85px;
 }
 
 .traditions_section {
@@ -417,6 +418,7 @@ ul {
   background-size: cover;
   gap: 166px;
   justify-content: center;
+  padding-top: 32px;
 }
 .address-linc {
   color: var(--color-primary-light);
