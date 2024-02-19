@@ -366,6 +366,14 @@ ul {
 .address-box {
   display: flex;
   flex-direction: column;
+  width: 211px;
+  padding-bottom: 16px;
+  gap: 16px;
+}
+
+.icon-box {
+  display: flex;
+  gap: 22px;
 }
 
 .button-and-agree {
@@ -404,11 +412,18 @@ ul {
 .ulbox-footer {
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 .navbox {
   display: flex;
   gap: 166px;
 }
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .footerbox {
   display: flex;
   background-color: var(--color-primary-dark);
@@ -418,7 +433,7 @@ ul {
   background-size: cover;
   gap: 166px;
   justify-content: center;
-  padding-top: 32px;
+  padding: 32px 0px;
 }
 .address-linc {
   color: var(--color-primary-light);
