@@ -334,8 +334,8 @@ ul {
 }
 
 .format-card {
-  border: 1px solid lightgray; /*_______DELETE_______*/
-  border-radius: 16px;
+  /*border: 1px solid lightgray; _______DELETE_______
+  border-radius: 16px;*/
   padding: 228px 24px 2px 24px;
 }
 .formats-title {
