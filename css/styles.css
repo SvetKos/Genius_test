@@ -72,11 +72,14 @@
   --color-primary-light: #faf4ea;
   --color-brand-light: #819b57;
   --color-brand-dark: #465929;
+  --color-secondary-dark: #a18268;
+  --color-secondary-light: #cfcfbc;
 }
 
-/* Base */
+/*                                                 /* Base */
 body {
   color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -124,7 +127,7 @@ ul {
   /* padding: 0 24px; */
 }
 
-/* Button */
+/*                                                 /* Button */
 .button {
   padding: 16px 32px;
   color: var(--color-primary-light);
@@ -145,9 +148,9 @@ ul {
 }
 
 .button_our {
-  color: #a18268;
+  color: var(--color-secondary-dark);
   background-color: transparent;
-  border: 1px solid #a18268;
+  border: 1px solid var(--color-secondary-dark);
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -169,7 +172,7 @@ ul {
   font-weight: 300;
 }
 
-/* Linc */
+/*                                                  /* Linc */
 .linc {
   color: var(--color-primary-light);
   text-decoration: none;
@@ -180,7 +183,7 @@ ul {
   /* font-weight: 600; */
 }
 
-/* Header */
+/*                                                 /* Header */
 .header-container {
   display: flex;
   align-items: center;
@@ -201,7 +204,7 @@ ul {
   justify-content: center;
 }
 
-/* Hero section */
+/*                                                 /* Hero section */
 .hero-section {
   padding: 272px;
   /* background-color: var(--color-primary-dark); */
@@ -231,7 +234,7 @@ ul {
   color: var(--color-brand-light);
 }
 
-/* Advantages section */
+/*                                                 /* Advantages section */
 .advantages-section {
   padding: 16px 0;
   background-color: var(--color-brand-light);
@@ -261,13 +264,7 @@ ul {
   color: var(--color-brand-dark);
 }
 
-/* Tradition section */
-.chefs-flexbox {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-  padding-left: 85px;
-}
+/*                                                 /* Tradition section */
 
 .traditions_section {
   padding-top: 96px;
@@ -300,16 +297,28 @@ ul {
   max-width: 325px;
 }
 
-/* chefs section */
+/*                                                 /* chefs section */
+.chefs-flexbox {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding-left: 85px;
+}
+.chef-photo {
+  border-radius: 4px 4px 4px 200px;
+  box-shadow: -16px 16px 0 0 var(--color-primary-light), -16px 16px 0 0,
+    -16px 16px 0 1px var(--color-secondary-dark);
+}
+
 .chefs-title {
-  margin-bottom: 80px; /* DELETE */
+  margin-bottom: 80px;
 }
 
 .accent-title::before,
 .accent-title::after {
   display: block;
   width: 352px;
-  border: 2px solid #cfcfbc;
+  border: 2px solid var(--color-secondary-light);
   content: '';
 }
 
@@ -320,7 +329,7 @@ ul {
   font-weight: 600;
 }
 
-/* format section */
+/*                                                 /* format section */
 .Handlebar {
   background-image: url('../images/Handlebar.png');
 }
@@ -346,12 +355,12 @@ ul {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     180deg,
     rgba(49, 38, 26, 0) 55.21%,
     rgba(49, 38, 26, 0.71) 72.92%,
     #31261a 100%
-  );
+  ); */
   border-radius: 16px;
 }
 
@@ -378,7 +387,7 @@ ul {
   font-weight: 300;
 }
 
-/* contact section */
+/*                                                 /* contact section */
 .flexcontact-section {
   display: flex;
   justify-content: center;
@@ -430,7 +439,7 @@ ul {
   /* max-width: 615px; */
 }
 
-/* Footer */
+/*                                                 /* Footer */
 .ulbox-footer {
   display: flex;
   flex-direction: column;
@@ -469,6 +478,6 @@ ul {
 }
 
 .address-copyright {
-  color: #a18268;
+  color: var(--color-secondary-dark);
   font-size: 14px;
 }
