@@ -204,7 +204,14 @@ ul {
 /* Hero section */
 .hero-section {
   padding: 272px;
-  background-image: url('../images/Сучасна_пекарня.jpg');
+  /* background-color: var(--color-primary-dark); */
+  background-image: linear-gradient(
+    102.76deg,
+    rgba(18, 18, 17, 0.78) 2.03%,
+    rgba(18, 18, 17, 0.6) 58.46%,
+    rgba(18, 18, 17, 0) 90.36%
+  );
+  background-image: url('../images/Сучасна_пекарня.png');
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -294,9 +301,17 @@ ul {
 }
 
 /* chefs section */
-/* .chefs-title {
-  margin-bottom: 80px;
-} */
+.chefs-title {
+  margin-bottom: 80px; /* DELETE */
+}
+
+.accent-title::before,
+.accent-title::after {
+  display: block;
+  width: 352px;
+  border: 2px solid #cfcfbc;
+  content: '';
+}
 
 .chef-title {
   font-family: Poppins;
@@ -307,13 +322,13 @@ ul {
 
 /* format section */
 .Handlebar {
-  background-image: url('../images/Handlebar.jpg');
+  background-image: url('../images/Handlebar.png');
 }
 .Horseshoe {
-  background-image: url('../images/Horseshoe.jpg');
+  background-image: url('../images/Horseshoe.png');
 }
 .Walrus {
-  background-image: url('../images/Walrus.jpg');
+  background-image: url('../images/Walrus.png');
 }
 
 .formats-list {
@@ -331,6 +346,13 @@ ul {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+  background-image: linear-gradient(
+    180deg,
+    rgba(49, 38, 26, 0) 55.21%,
+    rgba(49, 38, 26, 0.71) 72.92%,
+    #31261a 100%
+  );
+  border-radius: 16px;
 }
 
 .format-card {
